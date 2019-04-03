@@ -1,0 +1,14 @@
+<html>
+    <head>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href='{% static "app1/style.css" %}'/>
+</head>
+    <body>
+        <h1>hello world</h1>
+        This is the template
+
+            <!-- app1Pcbt...app1 is namespace name-->
+       <li> <a href = "{% url 'weather:kathmandu' %}"> Redirect to other</a></li>
+    </body>
+</html>
